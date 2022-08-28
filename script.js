@@ -23,7 +23,6 @@ function showTab(n) {
 function nextPrev(n) {
   // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
-  console.log(n);
   // Exit the function if any field in the current tab is invalid:
   if (n == 1 && !validateForm() && currentTab !== 1) return false;
   // Hide the current tab:
@@ -155,8 +154,6 @@ function hideBlocks(blocks) {
   }
 }
 function closeForm() {
-  console.log(1);
-  console.log(document.querySelector(".question-form"));
   document.querySelector(".question-form").className += " hide";
 }
 
@@ -188,7 +185,6 @@ function openBar() {
 }
 
 function CityChange() {
-  let a = document.getElementById("city").value;
   let city;
   let number;
   let hreff;
@@ -201,7 +197,8 @@ function CityChange() {
     city = "Mahiliow";
     number = "+375 (29) 780-18-18";
     hreff = "tel:+375-29-780-18-18";
-  } else {
+  }
+  if (document.getElementById("city").value === "city_3") {
     city = "Vitebsk";
     number = "+375 (29) 180 12 12 ";
     hreff = "tel:+375-29-180 12 12";
@@ -485,7 +482,6 @@ function CityChange() {
       ? "г. Могилев, Беларусь"
       : "г. Витебск, Беларусь";
 
-  map;
   document.querySelector(".yandex-map").innerHTML =
     city === "Homel"
       ? "г. Гомель, Беларусь"
@@ -517,7 +513,5 @@ function CityChange() {
   //number
   for (const item of document.querySelectorAll(".number").values()) {
     item.innerHTML = `<a href=${hreff}>${number}</a>`;
-    console.log(number);
-    console.log(item);
   }
 }
