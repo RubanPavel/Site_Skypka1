@@ -484,31 +484,13 @@ function CityChange() {
 
   document.querySelector(".yandex-map").innerHTML =
     city === "Homel"
-      ? "г. Гомель, Беларусь"
-      : `<iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a9630cec23fb7f03c153308dc414a6a213ef52f87647d38abb651e193cfa027&amp;source=constructor"
-        width="80%"
-        height="720"
-        frameborder="0"
-        llowfullscreen="true"
-        style="position:relative;"
-      ></iframe>`
-      ? `<iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3Acefdf72284d852b7fd532bb32c6dfe975456f9324e6cb8393c5e207ef7923103&amp;source=constructor"
-        width="80%"
-        height="720"
-        frameborder="0"
-        allowfullscreen="true"
-        style="position:relative;"
-      ></iframe>`
-      : `<iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3A576a0caed3e4073f0fde323bd81478f9d8654c91692300aca4367edfd79bbab5&amp;source=constructor"
-        width="80%"
-        height="720"
-        frameborder="0"
-        allowfullscreen="true"
-        style="position:relative;"
-      ></iframe>`;
+      ? `<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a9630cec23fb7f03c153308dc414a6a213ef52f87647d38abb651e193cfa027&amp;source=constructor"
+        width="80%" height="720" frameborder="0" llowfullscreen="true" style="position:relative;"></iframe>`
+      : city === "Mahiliow"
+      ? `<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acefdf72284d852b7fd532bb32c6dfe975456f9324e6cb8393c5e207ef7923103&amp;source=constructor"
+        width="80%" height="720" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>`
+      : `<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A576a0caed3e4073f0fde323bd81478f9d8654c91692300aca4367edfd79bbab5&amp;source=constructor"
+        width="80%" height="720" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>`;
 
   //number
   for (const item of document.querySelectorAll(".number").values()) {
