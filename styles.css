@@ -8,7 +8,13 @@ body {
 }
 
 /*------------------buttons----------------------------*/
+
+button{
+  border: 0px;
+}
+
 .yellow-btn {
+  border-radius: 10px ;
   width: 246px;
   height: 66px;
 
@@ -33,7 +39,7 @@ body {
 .logo img {
   background: #fefcea; /* Для старых браузров */
   background: linear-gradient(to top left, #fefcea, #f1da36);
-
+  max-width: 250px;
   border: 1px solid #333;
   border-radius: 5px;
 }
@@ -48,7 +54,7 @@ body {
   /* height: 1042px; */
   padding: 15px 0px;
 
-  background: url("./assets/Group\ 117.jpg") no-repeat center center fixed;
+  background: url("./assets/Group.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -66,7 +72,7 @@ header {
 }
 
 header .logo {
-  margin-left: 13%;
+  margin-left: 7%;
   /* margin-right: 404px; */
 }
 
@@ -100,12 +106,18 @@ header .wrapper .adress {
 }
 
 .dropbtn {
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 14px;
   background-color: inherit;
   color: #eef302;
-  padding: 16px;
+  padding: 14px 0px 14px 0px;
   border: none;
   cursor: pointer;
+  min-width: 90px;
 }
+
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -224,6 +236,7 @@ main .key-phrase .bold-part {
   font-weight: bold;
   font-size: 44px;
   line-height: 54px;
+  margin-bottom: 70px;
 }
 
 main .key-phrase .small-part {
@@ -261,7 +274,8 @@ main .pross-list .pross-item {
   text-align: left;
 
   width: 340px;
-  /* height: 175px; */
+  padding-bottom: 15px;
+
 }
 
 main .pross-list .pross-item img {
@@ -288,7 +302,7 @@ main .pross-list .pross-item .sub-text {
 
 /*------------------Second Screen----------------------------*/
 .second-screen {
-  background-image: url("./assets/Second\ screen\ background.svg");
+  background-image: url("./assets/Second screen background.svg");
   /* height: 1543px; */
   width: 100%;
 
@@ -382,7 +396,7 @@ main .pross-list .pross-item .sub-text {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url("./assets/Third\ screen.svg") no-repeat center center fixed;
+  background: url("./assets/Third screen.svg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -393,9 +407,8 @@ main .pross-list .pross-item .sub-text {
 }
 
 .third-screen .yellow-header {
-  padding-left: 595px;
-  padding-right: 596px;
-  font-weight: 600;
+  padding-left: 400px;
+  padding-right: 340px;
   font-size: 40px;
   line-height: 49px;
   text-align: center;
@@ -604,7 +617,7 @@ input[type="range"] {
 
 /*------------------Fourth Screen----------------------------*/
 .fourth-screen {
-  background: url("./assets/forth\ screen\ background.svg") no-repeat center
+  background: url("./assets/forth screen background.svg") no-repeat center
     center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -709,7 +722,7 @@ input[type="range"] {
 
 /*------------------Fifth Screen----------------------------*/
 .fifth-screen {
-  background-image: url("./assets/fifth\ screen\ background.svg");
+  background-image: url("./assets/fifth screen background.svg");
   /* height: 1042px; */
   padding: 50px 0px;
   width: 100%;
@@ -898,7 +911,7 @@ input[type="range"] {
 
 footer {
   margin: 0 auto;
-  max-width: 1900px;
+  max-width: 3000px;
   background: #121212;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -1016,7 +1029,7 @@ footer .bottom .adress-list .adress-item p {
 
 @media screen and (max-width: 1534px) {
   header .logo {
-    margin-right: 20%;
+    /*margin-right: 20%;*/
   }
 
   main .key-phrase {
@@ -1063,6 +1076,13 @@ footer .bottom .adress-list .adress-item p {
 }
 
 @media screen and (max-width: 1439px) {
+
+
+  .adress-text{
+    max-width: 120px;
+    font-size: 14px;
+  }
+
   header {
     justify-content: space-around;
     font-size: 12px;
@@ -1070,6 +1090,7 @@ footer .bottom .adress-list .adress-item p {
   header .logo {
     margin-right: 0;
     margin-left: 0;
+    margin-left: 7%;
   }
 
   main .pross-list .pross-item {
@@ -1500,7 +1521,7 @@ footer .bottom .adress-list .adress-item p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-top: 10px;
   margin-bottom: 10px;
-  max-width: 120px;
+  max-width: 180px;
   align-self: center;
   text-align: center;
 }
@@ -1508,14 +1529,14 @@ footer .bottom .adress-list .adress-item p {
   margin-top: 15px;
 }
 .btn-green {
-  background-color: greenyellow;
+  background-color: #eef302;
 }
 .img-wrap img {
   object-fit: contain;
 }
 .backcolor {
   margin: 0 auto;
-  max-width: 1900px;
+  max-width: 3000px;
 }
 .text__second {
   /*  */
@@ -1630,4 +1651,27 @@ footer .bottom .adress-list .adress-item p {
 .adressCity {
   text-align: center;
   align-items: center;
+}
+.selectCity{
+  font-family: Montserrat;
+  background-color: inherit;
+  color: #eef302;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.selectCity-content{
+  min-height: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: Montserrat;
+  background-color: inherit;
+  color: #121212;
+  background-color: transparent;
+
+
 }

@@ -10,10 +10,10 @@ function showTab(n) {
     fixStepIndicator(n);
   }
   if (n == x.length - 1) {
-    document.getElementById("nextBtn").innerHTML = "Назад";
+    document.getElementById("backBtn").innerHTML = "Назад";
   } else {
-    document.getElementById("nextBtn").innerHTML = "Назад";
-    const post = document.getElementById("nextBtn");
+    document.getElementById("backBtn").innerHTML = "Назад";
+    const post = document.getElementById("backBtn");
     post[n].setAttribute("value", "Send");
   }
   // ... and run a function that displays the correct step indicator:
@@ -184,7 +184,7 @@ function openBar() {
   }
 }
 
-function CityChange() {
+  function CityChange() {
   let city;
   let number;
   let hreff;
@@ -271,7 +271,7 @@ function CityChange() {
           <p>5 мкрн (Быховское кольцо)(вход с задней стороны пиццерии Dodopizza)</p>
       </div>
   </div>`
-      : city === "Mahiliow"
+      : city === "Vitebsk"
       ? `<div class="adress-item">
       <img src="./assets/map-location-icon.svg" alt="map location">
       <div class="main">
