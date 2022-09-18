@@ -1,15 +1,13 @@
-  <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51" fill="none">
 
         <g clip-path="url(#pictogram1)">
 
           <circle cx="25" cy="25.9861" r="25" fill="#11BF6A">
-        </circle><path d="M15 15.9861C13.3431 15.9861 12 17.2986 12 18.9176V29.6665C12 31.2855 13.3431 32.598
-        15 32.598H17V37.9861L23.3622 32.598H36C37.6569 32.598 39 31.2855 39 29.6665V18.9176C39 17.2986 37.6569
-          15.9861 36 15.9861H15Z" fill="white"></path><circle cx="19.5" cy="24.4861" r="1.5" fill="#11BF6A">
-          </circle><circle opacity="0.7" cx="25.5" cy="24.4861" r="1.5" fill="#11BF6A">
-          </circle><circle opacity="0.5" cx="31.5" cy="24.4861" r="1.5" fill="#11BF6A">
+        </circle><circle cx="16.5" cy="25.9861" r="3" fill="white">
+          </circle><circle opacity="0.7" cx="25.5" cy="25.9861" r="3" fill="white">
+          </circle><circle opacity="0.5" cx="34.5" cy="25.9861" r="3" fill="white">
           </circle></g><defs><clipPath id="pictogram1">
-            <rect width="50" height="50" fill="white" transform="translate(0 0.986084)"></rect>
+            <rect width="50" height="50" fill="white" transform="translate(0 0.986084)"/>
           </clipPath>
         </defs>
       </svg>

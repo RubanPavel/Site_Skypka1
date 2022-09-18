@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Скупка №1 - Скупка-Продажа Б/У. Техники</title>
     <meta name="description" content="+375 29 180 11 22 Скупка №1. ВО ВСЕХ РАЙОНАХ города, покупаем только ДОРОГО">
-    <meta name="keywords" content="Скупка, Срочный Выкуп, Скупка №1, Б/У" />
+    <meta name="keywords" content="Скупка, Срочный Выкуп, Скупка №1, Б/У"/>
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="./assets/logoF.svg" type="image/svg">
-    </head>
+</head>
 
 <body>
-  <div class="backcolor" >
+<div class="backcolor">
     <div class="first-screen">
         <header>
             <div class="logo">
@@ -21,163 +21,164 @@
             <div class="wrapper">
 
                 <div class="adress">
-                   <div class="adressCity" id="city-label">г. Гомель, Беларусь</div>
+                    <div class="adressCity" id="city-label">г. Гомель, Беларусь</div>
                     <div class="adress-text">Магазины расположены в КАЖДОМ РАЙОНЕ нашего города!</div>
-                    <select class="selectCity" id="city" onChange="CityChange()">
+                    <label for="city"></label><select class="selectCity" id="city" onChange="CityChange()">
                         <option class="selectCity-content" value="city_1">Гомель</option>
                         <option class="selectCity-content" value="city_2">Могилёв</option>
                         <option class="selectCity-content" value="city_3">Витебск</option>
                     </select>
                     <div class="dropdown">
-                        <button class="dropbtn">Адреса   <img  src="./assets/arrow-icon.svg" alt="адреса" style="padding-left: 10px;"></button>
+                        <button class="dropbtn">Адреса <img src="./assets/arrow-icon.svg" alt="адреса"
+                                                            style="padding-left: 10px;"></button>
 
                         <div class="dropdown-content">
 
-                          <!-- Адреса для Гомель -->
+                            <!-- Адреса для Гомель -->
 
                             <div id="city_1">
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                  <h6>улица М.Г. Ефремова, 8А</h6>
-                                  <p>р-он "Сельмаш", за остановкой Фадеева, здание Фотоцентра</p>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>улица М.Г. Ефремова, 8А</h6>
+                                        <p>р-он "Сельмаш", за остановкой Фадеева, здание Фотоцентра</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Мазурова, 60</h6>
+                                        <p>р-он "Мельников Луг", магазин "Веста"</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Ильича, 59а</h6>
+                                        <p>р-он "Белица", ТЦ "Полесье"</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. пр-т Речицкий, 61</h6>
+                                        <p>51 мкр-н, торговый дом "Речицкий", вход с улицы, около входа в ресторан.</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Карповича, 28, 2 этаж</h6>
+                                        <p>центр города, центральный рынок, ТЦ "Виктория"</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Кожара, 1, 1 этаж</h6>
+                                        <p>р-он "Аэродром", рядом с "Океаном"</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Свиридова, 13</h6>
+                                        <p>р-он "Волотова", круглое здание "Таблетка"</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Ильича, 331</h6>
+                                        <p>р-он "Белица", вход здание завода</p>
+                                    </div>
+                                </div>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Богдана Хмельницкого, 80</h6>
+                                        <p>5 мкрн (Быховское кольцо)(вход с задней стороны пиццерии Dodopizza) </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Мазурова, 60</h6>
-                                    <p>р-он "Мельников Луг", магазин "Веста"</p>
+
+                            <div id="city_2" style="display: none">
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Королева, 37а</h6>
+                                        <p>Юбилейный, ТЦ "Атлант", 2-й этаж</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Крупской, 182</h6>
+                                        <p>8-ой мкрн, в общежитии, в подвале около "AMI-мебель"</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Мовчанского, 25/98 </h6>
+                                        <p>ТЦ "Маяк", напротив (через дорогу) от маг."Тройка"</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>б-р Непокоренных, 37б</h6>
+                                        <p>ТЦ "Пилот", вход со стороны "Green" и "Burger King"</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Ильича, 59а</h6>
-                                    <p>р-он "Белица", ТЦ "Полесье"</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. пр-т Речицкий, 61</h6>
-                                    <p>51 мкр-н, торговый дом "Речицкий", вход с улицы, около входа в ресторан.</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Карповича, 28, 2 этаж</h6>
-                                    <p>центр города, центральный рынок, ТЦ "Виктория"</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Кожара, 1, 1 этаж</h6>
-                                    <p>р-он "Аэродром", рядом с "Океаном"</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Свиридова, 13</h6>
-                                    <p>р-он "Волотова", круглое здание "Таблетка"</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Ильича, 331</h6>
-                                    <p>р-он "Белица", вход здание завода</p>
-                                </div>
-                            </div>
-                            <div class="adress-item">
-                                <img src="./assets/map-location-icon.svg" alt="map location">
-                                <div class="main">
-                                    <h6>ул. Богдана Хмельницкого, 80</h6>
-                                    <p>5 мкрн (Быховское кольцо)(вход с задней стороны пиццерии Dodopizza) </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div id="city_2" style="display: none">
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Королева, 37а</h6>
-                                <p>Юбилейный, ТЦ "Атлант", 2-й этаж</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Крупской, 182</h6>
-                                <p>8-ой мкрн, в общежитии, в подвале около "AMI-мебель"</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Мовчанского, 25/98 </h6>
-                                <p>ТЦ "Маяк", напротив (через дорогу) от маг."Тройка"</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>б-р Непокоренных, 37б</h6>
-                                <p>ТЦ "Пилот", вход со стороны "Green" и "Burger King"</p>
-                            </div>
-                        </div>
-                    </div>
 
 
-                    <div id="city_3" style="display: none">
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Правды, 64а</h6>
-                                <p>перекресток ул. Правды и  ул. Смоленской, маг. Копеечка</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Чкалова, 50а</h6>
-                                    <p>р-н Юга-7, маг. Веста на бугре</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>проспект строителей, 1</h6>
-                                    <p>ТЦ "Континент", вход через маг. "Копеечка"</p>
-                            </div>
-                        </div>
-                        
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>проспект Московский, 86</h6>
-                                    <p>маг. "Санта", возле "McDonalds"</p>
-                            </div>
-                        </div>
+                            <div id="city_3" style="display: none">
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Правды, 64а</h6>
+                                        <p>перекресток ул. Правды и ул. Смоленской, маг. Копеечка</p>
+                                    </div>
+                                </div>
 
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Гончарная, 11</h6>
-                                    <p>ТЦ "РАМ" маг. Корона,роллет 1-4</p>
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Чкалова, 50а</h6>
+                                        <p>р-н Юга-7, маг. Веста на бугре</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>проспект строителей, 1</h6>
+                                        <p>ТЦ "Континент", вход через маг. "Копеечка"</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>проспект Московский, 86</h6>
+                                        <p>маг. "Санта", возле "McDonalds"</p>
+                                    </div>
+                                </div>
+
+                                <div class="adress-item">
+                                    <img src="./assets/map-location-icon.svg" alt="map location">
+                                    <div class="main">
+                                        <h6>ул. Гончарная, 11</h6>
+                                        <p>ТЦ "РАМ" маг. Корона,роллет 1-4</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>                        
-                        
+
                         </div>
                     </div>
 
@@ -188,8 +189,8 @@
                         Пн-Вс. с 10:00 до 19:00
                     </div>
                     <div class="days-off">
-                    БЕЗ ВЫХОДНЫХ!
-                    </div>  
+                        БЕЗ ВЫХОДНЫХ!
+                    </div>
                 </div>
                 <div class="text-social-networks">Весь ассортимент нашего товара здесь:</div>
                 <div class="social-networks">
@@ -201,18 +202,18 @@
                         <img src="./assets/Social network VK.svg" alt="Social network vk">
                     </a>
                     <a
-                        href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs">
+                            href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs">
                         <img src="./assets/Social network Viber.svg" alt="Social network viber">
                     </a>
                     <a href="https://ok.ru/skupkacentr">
-                      <img  src="./assets/Social network Ok.svg" alt="Social network OK">
-                  </a>
+                        <img src="./assets/Social network Ok.svg" alt="Social network OK">
+                    </a>
                 </div>
                 <div class="phone-order">
                     <div class="number"><a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a>
-                      <img width="20px" src="./assets/Viber.svg" alt=" ">
-                      <img width="20px" src="./assets/Telegram.svg" alt=" ">
-                      <img width="20px" src="./assets/WhatsApp.svg" alt=" ">
+                        <img width="20px" src="./assets/Viber.svg" alt=" ">
+                        <img width="20px" src="./assets/Telegram.svg" alt=" ">
+                        <img width="20px" src="./assets/WhatsApp.svg" alt=" ">
                     </div>
                     <div class="order">
                         <a href="#question-form">
@@ -227,28 +228,27 @@
             <div class="key-content">
                 <div class="key-phrase">
                     <div class="bold-part">
-                    Лучшая оценочная стоимость! Предложим самую выгодную цену и приятные бонусы!
+                        Лучшая оценочная стоимость! Предложим самую выгодную цену и приятные бонусы!
                     </div>
 
                     <div class="evalute-btn">
                         <a href="#product-form-header">
                             <button class="yellow-btn">
-                                <img alt="оценить товар"   src="./assets/calculator.svg"> <span>оценить товар</span>
+                                <img alt="оценить товар" src="./assets/calculator.svg"> <span>оценить товар</span>
                             </button>
                         </a>
                     </div>
-                    <div class="button-question-form"> 
-                          <a href="#question-form">  
-                          <button class="yellow-btn btn-green">
-                              <img alt="заказать звонок"  src="./assets/icons8-phone (1).svg"> <span>заказать звонок</span>
-                          </button>
-                      </a>
-                  </div>
+                    <div class="button-question-form">
+                        <a href="#question-form">
+                            <button class="yellow-btn btn-green">
+                                <img alt="заказать звонок" src="./assets/icons8-phone (1).svg">
+                                <span>заказать звонок</span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
                 <img src="./assets/laptop-main.svg" class="img-part-2" alt="laptop-logo">
             </div>
-
-
 
 
             <div class="pross-list">
@@ -299,87 +299,87 @@
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/Kyxni.svg">
+                        <img alt="Kyxni" src="./assets/Kyxni.svg">
                     </div>
                     <div class="product-name">
-                      Кухонная техника
+                        Кухонная техника
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img   src="./assets/fish.png">
+                        <img alt='fish' src="./assets/fish.png">
                     </div>
                     <div class="product-name">
-                      Рыболовные снасти и лодки
+                        Рыболовные снасти и лодки
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img alt="Monitor"   src="./assets/Monitor.svg">
+                        <img alt="Monitor" src="./assets/Monitor.svg">
                     </div>
                     <div class="product-name">
-                      Мониторы
+                        Мониторы
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img alt="stroikainstr"  src="./assets/stroikainstr.png">
+                        <img alt="stroikainstr" src="./assets/stroikainstr.png">
                     </div>
                     <div class="product-name">
-                      Строительный инструмент
+                        Строительный инструмент
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/uxod.png">
+                        <img alt="uxod" src="./assets/uxod.png">
                     </div>
                     <div class="product-name">
-                      Средства по уходу 
+                        Средства по уходу
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/instr.png">
+                        <img alt="foto" src="./assets/instr.png">
                     </div>
                     <div class="product-name">
-                      Инструмент 
+                        Инструмент
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/styl.png">
+                        <img alt="foto" src="./assets/styl.png">
                     </div>
                     <div class="product-name">
-                      Кресла и стулья 
+                        Кресла и стулья
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img  src="./assets/sadtop.png">
+                        <img alt="foto" src="./assets/sadtop.png">
                     </div>
                     <div class="product-name">
-                      Садовый инструмент
+                        Садовый инструмент
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/notebook.svg">
+                        <img alt="foto" src="./assets/notebook.svg">
                     </div>
                     <div class="product-name">
                         Ноутбуки
@@ -389,7 +389,7 @@
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/PC4.svg">
+                        <img alt="foto" src="./assets/PC4.svg">
                     </div>
                     <div class="product-name">
                         Игровые приставки
@@ -399,242 +399,239 @@
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/FOTO.svg">
+                        <img alt="foto" src="./assets/FOTO.svg">
                     </div>
                     <div class="product-name">
-                      Фотоаппараты и обьективы
+                        Фотоаппараты и обьективы
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/PC.svg">
+                        <img alt="foto" src="./assets/PC.svg">
                     </div>
                     <div class="product-name">
-                      Компьютеры и комплектующие к ним
+                        Компьютеры и комплектующие к ним
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/navig.png">
+                        <img alt="foto" src="./assets/navig.png">
                     </div>
                     <div class="product-name">
-                      Навигаторы и регистраторы
+                        Навигаторы и регистраторы
                     </div>
                 </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/electro2.png">
+                        <img alt="foto" src="./assets/electro2.png">
                     </div>
                     <div class="product-name">
                         Гироскутеры и электросамокаты
                     </div>
                 </div>
-                </div>
-            <div class="product-item">
-                  <div class="product-item-wrap">
-                      <div class="img-wrap">
-                          <img src="./assets/bittex.png">
-                      </div>
-                      <div class="product-name">
-                          Бытовую технику
-                      </div>
-                  </div>
             </div>
             <div class="product-item">
                 <div class="product-item-wrap">
                     <div class="img-wrap">
-                        <img src="./assets/stvol.png">
+                        <img alt="foto" src="./assets/bittex.png">
                     </div>
                     <div class="product-name">
-                      Пневматическое оружие и комплектующие
+                        Бытовую технику
                     </div>
                 </div>
             </div>
             <div class="product-item">
-              <div class="product-item-wrap">
-                  <div class="img-wrap">
-                      <img src="./assets/chas.png">
-                  </div>
-                  <div class="product-name">
-                    Часы, смартчасы, браслеты
-                  </div>
-              </div>
-            </div>
-            <div class="product-item">
-            <div class="product-item-wrap">
-                <div class="img-wrap">
-                    <img src="./assets/naysh.png">
-                </div>
-                <div class="product-name">
-                  Наушники и <br> гарнитура
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/stvol.png">
+                    </div>
+                    <div class="product-name">
+                        Пневматическое оружие и комплектующие
+                    </div>
                 </div>
             </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/chas.png">
+                    </div>
+                    <div class="product-name">
+                        Часы, смартчасы, браслеты
+                    </div>
+                </div>
             </div>
             <div class="product-item">
-            <div class="product-item-wrap">
-              <div class="img-wrap">
-                  <img src="./assets/autotovar.png">
-              </div>
-              <div class="product-name">
-                Автотовары и переферия
-              </div>
-            </div>
-            </div>
-            <div class="product-item">
-            <div class="product-item-wrap">
-            <div class="img-wrap">
-                <img src="./assets/magnitol.png">
-            </div>
-            <div class="product-name">
-              Звук и магнитолы
-            </div>
-            </div>
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/naysh.png">
+                    </div>
+                    <div class="product-name">
+                        Наушники и <br> гарнитура
+                    </div>
+                </div>
             </div>
             <div class="product-item">
-            <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/Akust.png">
-          </div>
-          <div class="product-name">
-            Аккустичесские системы
-          </div>
-      </div>
-    </div>
-      <div class="product-item">
-        <div class="product-item-wrap">
-            <div class="img-wrap">
-                <img src="./assets/gitarsint.png">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/autotovar.png">
+                    </div>
+                    <div class="product-name">
+                        Автотовары и переферия
+                    </div>
+                </div>
             </div>
-            <div class="product-name">
-              Музыкальные <br> инструменты и <br> оборудование
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/magnitol.png">
+                    </div>
+                    <div class="product-name">
+                        Звук и магнитолы
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/Akust.png">
+                    </div>
+                    <div class="product-name">
+                        Аккустичесские системы
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/gitarsint.png">
+                    </div>
+                    <div class="product-name">
+                        Музыкальные <br> инструменты и <br> оборудование
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/tren.png">
+                    </div>
+                    <div class="product-name">
+                        Тренажеры
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/auto.png">
+                    </div>
+                    <div class="product-name">
+                        Автомобили
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/dom.png">
+                    </div>
+                    <div class="product-name">
+                        Недвижимость
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/tonom.png">
+                    </div>
+                    <div class="product-name">
+                        Аптечные приборы
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/Tel.svg">
+                    </div>
+                    <div class="product-name">
+                        Смартфоны и акссесуары
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/print.png">
+                    </div>
+                    <div class="product-name">
+                        Принтеры, сканеры, МФУ
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/velo.svg">
+                    </div>
+                    <div class="product-name">
+                        Спорт техника и товары
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/disk3.png">
+                    </div>
+                    <div class="product-name">
+                        Расходники
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/deti.png">
+                    </div>
+                    <div class="product-name">
+                        Товары для детей
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/tyrizmtop.png">
+                    </div>
+                    <div class="product-name">
+                        Туризм и <br> путешествия
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-item-wrap">
+                    <div class="img-wrap">
+                        <img alt="foto" src="./assets/bixnes.png">
+                    </div>
+                    <div class="product-name">
+                        Оборудование для бизнеса
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img   src="./assets/tren.png">
-          </div>
-          <div class="product-name">
-            Тренажеры
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img   src="./assets/auto.png">
-          </div>
-          <div class="product-name">
-            Автомобили
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img   src="./assets/dom.png">
-          </div>
-          <div class="product-name">
-            Недвижимость
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/tonom.png">
-          </div>
-          <div class="product-name">
-            Аптечные приборы
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/Tel.svg">
-          </div>
-          <div class="product-name">
-            Смартфоны и акссесуары
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/print.png">
-          </div>
-          <div class="product-name">
-            Принтеры, сканеры, МФУ
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/velo.svg">
-          </div>
-          <div class="product-name">
-            Спорт техника и товары
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/disk3.png">
-          </div>
-          <div class="product-name">
-            Расходники
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/deti.png">
-          </div>
-          <div class="product-name">
-            Товары для детей
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/tyrizmtop.png">
-          </div>
-          <div class="product-name">
-            Туризм и <br> путешествия
-          </div>
-      </div>
-    </div>
-    <div class="product-item">
-      <div class="product-item-wrap">
-          <div class="img-wrap">
-              <img src="./assets/bixnes.png">
-          </div>
-          <div class="product-name">
-            Оборудование для бизнеса
-          </div>
-      </div>
-    </div>
-  </div>
-  <div class="text__second"> 
-    Это далеко не все, а только основное! Предложите свой товар на оценку!
-  </div>
+        <div class="text__second">
+            Это далеко не все, а только основное! Предложите свой товар на оценку!
+        </div>
 
-  </div>
-
- 
-
+    </div>
 
 
     <div class="third-screen">
@@ -659,7 +656,7 @@
                             2
                         </div>
                         <div class="description">
-                          Комплектация вашего товара
+                            Комплектация вашего товара
                         </div>
                     </div>
                     <img src="./assets/step-separator.svg" alt="">
@@ -668,7 +665,7 @@
                             3
                         </div>
                         <div class="description">
-                          Состояние вашего товара
+                            Состояние вашего товара
                         </div>
                     </div>
                     <img src="./assets/step-separator.svg" alt="">
@@ -677,7 +674,7 @@
                             4
                         </div>
                         <div class="description">
-                          Сколько желаете выручить (обьективно)?
+                            Сколько желаете выручить (обьективно)?
                         </div>
                     </div>
                     <img src="./assets/step-separator.svg" alt="">
@@ -700,7 +697,9 @@
                         <p>
                             Введите в форму товар, который хотите оценить
                         </p>
-                        <p><input placeholder="Например: «Ноутбук»" oninput="this.className = '' " name="product-name">
+                        <p><label>
+                            <input placeholder="Например: «Ноутбук»" oninput="this.className = '' " name="product-name">
+                        </label>
                         </p>
                     </div>
 
@@ -714,12 +713,12 @@
                             <div class="radio-joiner">
                                 <div class="radio-wrap">
                                     <input type="radio" id="technique-choice-1" oninput="this.className = '' "
-                                        name="complect" value="full-set">
+                                           name="complect" value="full-set">
                                     <label for="technique-choice-1">полный комплект</label>
                                 </div>
                                 <div class="radio-wrap">
                                     <input type="radio" id="technique-choice-2" name="complect"
-                                        oninput="this.className = '' " value="incomplete set" required>
+                                           oninput="this.className = '' " value="incomplete set" required>
                                     <label for="technique-choice-2">неполный комплект</label>
                                 </div>
                             </div>
@@ -727,39 +726,38 @@
                                 Из чего состоит ваш комплект (по желанию):
                             </p>
                             <p><input type="text" placeholder="Например: «‎В мой комплект входит ...»‎"
-                                    oninput="this.className = ''" name="product-quality-description"></p>
+                                      oninput="this.className = ''" name="product-quality-description"></p>
                         </div>
                     </div>
 
 
                     <div class="tab">
-                      <h3>Состояние вашего товара</h3>
-                      <p>
-                          Выберите подходящий вариант ниже.
-                      </p>
-
-                      <div class="tab-form">
+                        <h3>Состояние вашего товара</h3>
                         <p>
-                          Состояние (от 1 до 10) (по желанию) :
-                      </p>
-                      <p><input type="text" placeholder="Например: «‎Состояние  1...10»‎"
-                              oninput="this.className = ''" name="product-condition-rating"></p>
+                            Выберите подходящий вариант ниже.
+                        </p>
 
-                      <p>
-                          Дефекты (по желанию):
-                      </p>
-                      <p><input type="text" placeholder="Например: «‎Присутствуют следующие дефекты...»‎"
-                              oninput="this.className = ''" name="product-condition-defect"></p>
+                        <div class="tab-form">
+                            <p>
+                                Состояние (от 1 до 10) (по желанию) :
+                            </p>
+                            <p><input type="text" placeholder="Например: «‎Состояние  1...10»‎"
+                                      oninput="this.className = ''" name="product-condition-rating"></p>
 
-                      <p>
-                          Загрузить фото (по желанию):
-                      </p>
-                        <p><input name="file" type="file" oninput="this.className = ''" name="product-condition-foto"></p>
+                            <p>
+                                Дефекты (по желанию):
+                            </p>
+                            <p><input type="text" placeholder="Например: «‎Присутствуют следующие дефекты...»‎"
+                                      oninput="this.className = ''" name="product-condition-defect"></p>
+
+                            <p>
+                                Загрузить фото (по желанию):
+                            </p>
+                            <p><input name="file" type="file" oninput="this.className = ''"
+                                      name="product-condition-foto"></p>
 
                         </div>
-                  </div>
-
-
+                    </div>
 
 
                     <div class="tab">
@@ -771,11 +769,12 @@
 
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
                             <input type="text" id="textInput" class="currency" value="50.00"
-                                name="money count from text" oninput="this.className = ''" />
+                                   name="money count from text" oninput="this.className = ''"/>
 
                             <input type="range" name="money count" min="0" max="5000" list="steplist"
-                                onchange="updateTextInput(this.value);" oninit="updateTextInput(this.value);" value="50"
-                                style="height: 0;" oninput="this.className = ''">
+                                   onchange="updateTextInput(this.value);" oninit="updateTextInput(this.value);"
+                                   value="50"
+                                   style="height: 0;" oninput="this.className = ''">
                             <datalist id="steplist">
                                 <option>0</option>
                                 <option>500</option>
@@ -806,10 +805,10 @@
                     </div>
 
                 </div>
-                <div style="height: 68px; width: 98%; display: flex; justify-content: space-between;">
-                <button class="yellow-btn" type="button" id="backBtn" onclick="lastPrev(1)">Назад</button>
-                <button class="yellow-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Далее</button>
-            </div>
+                <div class="buttonY">
+                    <button class="yellow-btn" type="button" id="backBtn" onclick="lastPrev(1)">Назад</button>
+                    <button class="yellow-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Далее</button>
+                </div>
             </div>
         </form>
     </div>
@@ -823,17 +822,21 @@
                     </h1>
                     <p>
                         Мы - сеть магазинов <strong>«Скупка»</strong>, и уже в течение 10 лет занимаемся выкупом и
-                        продажей огромного перечня групп товаров. Наши магазины (они же приемные пункты) есть в КАЖДОМ РАЙОНЕ нашего с Вами города. Мы работаем без выходных, за это время мы заслужили превосходную репутацию, а главное - у нас Вы гарантированно и БЫСТРО получите самое высокое вознаграждение за свой товар!
-                        <br>Так же в наших магазинах в широком ассортименте вы можете выбрать, сравнить и приобрести поддержанный качественный товар по приятным ценам)
+                        продажей огромного перечня групп товаров. Наши магазины (они же приемные пункты) есть в КАЖДОМ
+                        РАЙОНЕ нашего с Вами города. Мы работаем без выходных, за это время мы заслужили превосходную
+                        репутацию, а главное - у нас Вы гарантированно и БЫСТРО получите самое высокое вознаграждение за
+                        свой товар!
+                        <br>Так же в наших магазинах в широком ассортименте вы можете выбрать, сравнить и приобрести
+                        поддержанный качественный товар по приятным ценам)
                         <br>
                         <br>
                         <i>
-                          <strong>
-                            Как бы обьяснить Вам нашу формулу попроще...?
-                            Она проста - ведь мы всегда платим БОЛЬШЕ!) 
-                          </strong>
+                            <strong>
+                                Как бы обьяснить Вам нашу формулу попроще...?
+                                Она проста - ведь мы всегда платим БОЛЬШЕ!)
+                            </strong>
                         </i>
-                        
+
                     </p>
                     <!-- <button class="call-order yellow-btn">
                         <a href="#question-form">
@@ -846,38 +849,38 @@
                 <div class="experience-list">
                     <div class="exp-item">
                         <div class="content">
-                          <div class="img_exp-item">
-                            <h5>90%</h5>
-                          </div>
+                            <div class="img_exp-item">
+                                <h5>90%</h5>
+                            </div>
 
-                          <!--  <img src="./assets/99.svg" alt="99%"> -->
+                            <!--  <img src="./assets/99.svg" alt="99%"> -->
 
                             <h3>90% удачно завершенных сделок</h3>
                             <p>Наши предложения в 90% случаев удовлетворяют наших клиентов</p>
                         </div>
                     </div>
                     <div class="exp-item">
-                        <div class="content"> 
-                          
-                          <div class="img_exp-item">
-                            <h5>80%</h5>
-                          </div>
+                        <div class="content">
+
+                            <div class="img_exp-item">
+                                <h5>80%</h5>
+                            </div>
 
                             <!-- <img src="./assets/80.svg" alt="99%"> -->
 
                             <h3>До 80% от стоимости товара</h3>
                             <p>У нас Вы можете получить от 40% до 80%
-                              от рыночной стоимости б/у товара в зависимости от группы товара, его актуальности,
-                              комплектации, даты приобретения, износа, гарантии и документации, ценовой категории.
+                                от рыночной стоимости б/у товара в зависимости от группы товара, его актуальности,
+                                комплектации, даты приобретения, износа, гарантии и документации, ценовой категории.
                             </p>
                         </div>
                     </div>
                     <div class="exp-item">
                         <div class="content">
-                          
-                          <div class="img_exp-item">
-                          <h5>10+</h5>
-                          </div>
+
+                            <div class="img_exp-item">
+                                <h5>10+</h5>
+                            </div>
 
                             <!-- <img src="./assets/10.svg" alt="10"> -->
 
@@ -888,9 +891,9 @@
                     <div class="exp-item">
                         <div class="content">
 
-                          <div class="img_exp-item">
-                            <h5>200+</h5>
-                          </div>
+                            <div class="img_exp-item">
+                                <h5>200+</h5>
+                            </div>
 
                             <!-- <img src="./assets/200.svg" alt="200"> -->
                             <h3>
@@ -918,8 +921,8 @@
                     <h3>Узнайте цену</h3>
                     <p>Оставьте заявку по кнопке ниже или позвоните или напишите в мессенджеры нам по номеру</p>
 
-                      <div class="number"><a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a></div> 
-                      
+                    <div class="number"><a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a></div>
+
                 </div>
                 <div class="separator">
                     <img src="./assets/workflow-separator.svg" alt="workflow separator">
@@ -927,7 +930,8 @@
                 <div class="pross-item">
                     <img src="./assets/workflow-item2.svg" alt="workflow item">
                     <h3>Привозите к нам</h3>
-                    <p>Наши магазины и пункты приёма располагаются во ВСЕХ РАЙОНАХ города (посмотрите в списке или на карте ниже ближайший)</p>
+                    <p>Наши магазины и пункты приёма располагаются во ВСЕХ РАЙОНАХ города (посмотрите в списке или на
+                        карте ниже ближайший)</p>
                 </div>
                 <div class="separator">
                     <img src="./assets/workflow-separator-reverse.svg" alt="workflow separator">
@@ -953,89 +957,91 @@
                 </a>
             </button>
             <div class="pross-item">
-            <p>или позвоните нам сами</p>
-            <div class="number"><a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a></div> 
-            
+                <p>или позвоните нам сами</p>
+                <div class="number"><a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a></div>
+
             </div>
         </div>
     </div>
 
-      <div class="map">
-      
-      <div class="form-wrapper">
-          <form class="question-form" action="https://formspree.io/f/xjvpqkvn" method="POST" id="question-form">
-            <div class="Xcross"   onclick="closeForm()"> ЗАКРЫТЬ </div>
-              <h2>
-                  Остались вопросы?
-              </h2>
-              <p>
-                  Оставьте свои данные и получите консультацию!
-              </p>
+    <div class="map">
 
-              <div class="input-wrap">
-                  <label for="name">Ваше имя</label>
-                  <input type="text" name="name" id="name" placeholder="Иван Иванов">
-              </div>
-              <div class="input-wrap">
-                  <label for="phone">Ваш телефон</label>
-                  <input type="text" name="phone" id="phone" placeholder="+375 (**) ***-**-**">
-              </div>
-              <button type="submit" value="Send" class="yellow-btn">Перезвоните мне</button>
-          </form>
-      </div>
-      <div class="yandex-map">
-         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a9630cec23fb7f03c153308dc414a6a213ef52f87647d38abb651e193cfa027&amp;source=constructor"
-        width="80%" height="720" frameborder="0" llowfullscreen="true" style="position:relative;"></iframe>
-      </div>
-      </div> 
-      </div>
-    
-    
-    <footer>
-        <div class="content">
-            <div class="top">
-                <div class="logo">
-                    <img  src="./assets/logoF.svg" alt="blck and white logo">
-                </div>
-                <div class="text_social">
-                  Весь ассортимент товара в продажу выкладываем здесь:
-                </div>
-                <div class="social-networks">
+        <div class="form-wrapper">
+            <form class="question-form" action="https://formspree.io/f/xjvpqkvn" method="POST" id="question-form">
+                <div class="Xcross" onclick="closeForm()"> ЗАКРЫТЬ</div>
+                <h2>
+                    Остались вопросы?
+                </h2>
+                <p>
+                    Оставьте свои данные и получите консультацию!
+                </p>
 
-                  <a href="https://www.instagram.com/skupka1gomel/">
+                <div class="input-wrap">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" name="name" id="name" placeholder="Иван Иванов">
+                </div>
+                <div class="input-wrap">
+                    <label for="phone">Ваш телефон</label>
+                    <input type="text" name="phone" id="phone" placeholder="+375 (**) ***-**-**">
+                </div>
+                <button type="submit" value="Send" class="yellow-btn">Перезвоните мне</button>
+            </form>
+        </div>
+        <div class="yandex-map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7a9630cec23fb7f03c153308dc414a6a213ef52f87647d38abb651e193cfa027&amp;source=constructor"
+                    width="80%" height="720" frameborder="0" llowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="content">
+        <div class="top">
+            <div class="logo">
+                <img src="./assets/logoF.svg" alt="blck and white logo">
+            </div>
+            <div class="text_social">
+                Весь ассортимент товара в продажу выкладываем здесь:
+            </div>
+            <div class="social-networks">
+
+                <a href="https://www.instagram.com/skupka1gomel/">
                     <img src="./assets/Social network instagram.svg" alt="Social network instagram">
                 </a>
                 <a href="https://vk.com/skupkacentr">
                     <img src="./assets/Social network VK.svg" alt="Social network vk">
                 </a>
                 <a
-                    href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs">
+                        href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs">
                     <img src="./assets/Social network Viber.svg" alt="Social network viber">
                 </a>
                 <a href="https://ok.ru/skupkacentr">
-                  <img  src="./assets/Social network Ok.svg" alt="Social network OK">
-              </a>
-              
+                    <img src="./assets/Social network Ok.svg" alt="Social network OK">
+                </a>
+
+            </div>
+            <div class="business-data">
+                <div class="number">
+                    <a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a>
+                    <div>
+                    <img width="20px" src="./assets/Viber.svg" alt=" ">
+                    <img width="20px" src="./assets/Telegram.svg" alt=" ">
+                    <img width="20px" src="./assets/WhatsApp.svg" alt=" ">
+                    </div>
                 </div>
-                <div class="business-data">
-                    <div class="number">
-                        <a href="tel:+375-29-180-11-22">+375 (29) 180-11-22</a>
-                        <img width="20px" src="./assets/Viber.svg" alt=" ">
-                      <img width="20px" src="./assets/Telegram.svg" alt=" ">
-                      <img width="20px" src="./assets/WhatsApp.svg" alt=" ">
-                    </div>
-                    <div class="register-data">
-                        
-                        <p>ООО "Иноват Технолоджи" <br> УНП 491236274</p>
-                    </div>
+                <div class="register-data">
+
+                    <p>ООО "Иноват Технолоджи" <br> УНП 491236274</p>
                 </div>
             </div>
-            <div class="bottom">
+        </div>
+        <div class="bottom">
 
 
-              <!-- Адреса для Гомель -->
+            <!-- Адреса для Гомель -->
 
-<div class="adress-list">
+            <div class="adress-list">
                 <div id="Hom" style="display: flex; flex-wrap: wrap;">
                     <div class="adress-item">
                         <img src="./assets/map-location-icon.svg" alt="map location">
@@ -1112,7 +1118,7 @@
                         <img src="./assets/map-location-icon.svg" alt="map location">
                         <div class="main">
                             <h6>ул. Правды, 64а</h6>
-                            <p>перекресток ул. Правды и  ул. Смоленской, маг. Копеечка</p>
+                            <p>перекресток ул. Правды и ул. Смоленской, маг. Копеечка</p>
                         </div>
                     </div>
                     <div class="adress-item">
@@ -1143,112 +1149,107 @@
                             <p>ТЦ "РАМ" маг. Корона,роллет 1-4</p>
                         </div>
                     </div>
-                  </div>
-                    
-                    <!-- Адреса для Могилёв -->
+                </div>
+
+                <!-- Адреса для Могилёв -->
 
 
-                    <div id="Vtb" style="display: none">
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Королева, 37а</h6>
-                                <p>Юбилейный, ТЦ "Атлант", 2-й этаж</p>
-                            </div>
+                <div id="Vtb" style="display: none">
+                    <div class="adress-item">
+                        <img src="./assets/map-location-icon.svg" alt="map location">
+                        <div class="main">
+                            <h6>ул. Королева, 37а</h6>
+                            <p>Юбилейный, ТЦ "Атлант", 2-й этаж</p>
                         </div>
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Крупской, 182</h6>
-                                <p>8-ой мкрн, в общежитии, в подвале около "AMI-мебель"</p>
-                            </div>
-                        </div>
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>ул. Мовчанского, 25/98 </h6>
-                                <p>ТЦ "Маяк", напротив (через дорогу) от маг."Тройка"</p>
-                            </div>
-                        </div>
-                        <div class="adress-item">
-                            <img src="./assets/map-location-icon.svg" alt="map location">
-                            <div class="main">
-                                <h6>б-р Непокоренных, 37б</h6>
-                                <p>ТЦ "Пилот", вход со стороны "Green" и "Burger King"</p>
-                            </div>
-                        </div>
-                      </div>
                     </div>
+                    <div class="adress-item">
+                        <img src="./assets/map-location-icon.svg" alt="map location">
+                        <div class="main">
+                            <h6>ул. Крупской, 182</h6>
+                            <p>8-ой мкрн, в общежитии, в подвале около "AMI-мебель"</p>
+                        </div>
+                    </div>
+                    <div class="adress-item">
+                        <img src="./assets/map-location-icon.svg" alt="map location">
+                        <div class="main">
+                            <h6>ул. Мовчанского, 25/98 </h6>
+                            <p>ТЦ "Маяк", напротив (через дорогу) от маг."Тройка"</p>
+                        </div>
+                    </div>
+                    <div class="adress-item">
+                        <img src="./assets/map-location-icon.svg" alt="map location">
+                        <div class="main">
+                            <h6>б-р Непокоренных, 37б</h6>
+                            <p>ТЦ "Пилот", вход со стороны "Green" и "Burger King"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
+    </div>
 </footer>
 
-    <nav>
+<nav>
 
-      <div class="IconsMenu">
+    <div class="IconsMenu">
 
-      <div class="round-block cross-block" onclick="openBar()">
-      </div>
-      
+        <div class="round-block cross-block" onclick="openBar()">
+        </div>
+
     </div>
 
     <div class="Pictograms directionV hide">
 
-    <div>
-      <a target="_blank" href="https://www.instagram.com/skupka1gomel/" rel="noreferrer">
-      <div class="PictogramSelected directionV" style="box-shadow: none;">
-        <img src="./assets/instagram.svg" alt="Social network instagram">
-      </div>
-      </a>
-    </div>
-          
-    <div>
-
-        <a target="_blank" href="https://vk.com/skupkacentr" rel="noreferrer">
-        <div class="PictogramSelected directionV" style="box-shadow: none;"> 
-        <img src="./assets/VK.svg" alt="Social network vk">
-      </div>
-        </a>
-    </div>
-                
-                
-    <div>
-
-        <a target="_blank" href="https://ok.ru/skupkacentr" rel="noreferrer">
-        <div class="PictogramSelected directionV" style="box-shadow: none;"> 
-          <img  src="./assets/Ok.svg" alt="Social network OK">
+        <div>
+            <a target="_blank" href="https://www.instagram.com/skupka1gomel/" rel="noreferrer">
+                <div class="PictogramSelected directionV" style="box-shadow: none;">
+                    <img src="./assets/instagram.svg" alt="Social network instagram">
+                </div>
+            </a>
         </div>
-        </a>
-      </div>
 
+        <div>
 
-    <div>
-        <a target="_blank" href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs" rel="noreferrer">
-        <div class="PictogramSelected directionV" style="box-shadow: none;">
-        <img src="./assets/Viber.svg" alt="Social network viber">
-      </div>
-        </a>
-    </div>
-
-    <div>
-      <div class="PictogramSelected directionV" style="box-shadow: none;">
-        <a href="tel:+375-29-180-11-22"> <img  src="./assets/phone50.svg" alt="phoneTel"> </a>
+            <a target="_blank" href="https://vk.com/skupkacentr" rel="noreferrer">
+                <div class="PictogramSelected directionV" style="box-shadow: none;">
+                    <img src="./assets/VK.svg" alt="Social network vk">
+                </div>
+            </a>
         </div>
-      </div>
 
-      <div>
-        <a target="_blank" href="https://jivosite.by" rel="noreferrer">
-        <div class="PictogramSelected directionV" style="box-shadow: none;">
-        <img src="./assets/message.svg" alt="message chat">
-      </div>
-        </a>
+
+        <div>
+
+            <a target="_blank" href="https://ok.ru/skupkacentr" rel="noreferrer">
+                <div class="PictogramSelected directionV" style="box-shadow: none;">
+                    <img src="./assets/Ok.svg" alt="Social network OK">
+                </div>
+            </a>
+        </div>
+
+
+        <div>
+            <a target="_blank"
+               href="https://invite.viber.com/?g2=AQBVTdyv%2FHAdK0v3fQp5rZ5dqgY88b40Ry8wbz2%2FPhPxCHoq2RqO%2B%2Fg8LoWKHtKs"
+               rel="noreferrer">
+                <div class="PictogramSelected directionV" style="box-shadow: none;">
+                    <img src="./assets/Viber.svg" alt="Social network viber">
+                </div>
+            </a>
+        </div>
+
+        <div>
+            <div class="PictogramSelected directionV" style="box-shadow: none;">
+                <a href="tel:+375-29-180-11-22"> <img src="./assets/phone50.svg" alt="phoneTel"> </a>
+            </div>
+        </div>
+
+
     </div>
 
-  </div>               
-    
-    </nav>
-    <script src="script.js"></script>
-  </div>
+</nav>
+<script src="script.js"></script>
+
 </body>
 
 </html>
